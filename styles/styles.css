@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../images/25501.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/*
+======= WEATHER PANEL ========
+*/
+.weather__panel {
+    height: 70%;
+    width: 60%;
+    background-color: #7ac1f0;
+    margin: 0 auto;
+    margin-top: 7%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+/*
+======= WEATHER APP ======  
+*/
+
+/* SECTION ONE */
+#weather__app {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    column-gap: 50px;
+    color: #000000;
+    position: relative;
+    margin-left: 22%;
+    top: 35%;
+
+}
+
+#city_title {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+#tempeture {
+    font-size: 50px;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+#img_clima_s {
+    position: absolute;
+    margin-left: 200px;
+    top: -40px;
+    display: block;
+    background-color: #fff;
+    border-radius: 100px;
+    width: 100%;
+    max-width: 70px;
+}
+
+#character {
+    position: absolute;
+    left: 70%;
+    bottom: 10%;
+}
+
+#character2 {
+    position: absolute;
+    left: 15%;
+}
+
+/*
+====== WEATHER CONDITIONS =======
+*/
+.img_clima_partial {
+    display: none;
+}
+.img_clima_partial-visible {
+    display: visible;
+    width: 100%;
+    max-width: 300px;
+}
+
+.img_clima {
+    width: 100%;
+    max-width: 300px;
+}
+
+.img_clima-invisible {
+    display: none;
+}
